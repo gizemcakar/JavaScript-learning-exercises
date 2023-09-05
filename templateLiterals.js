@@ -26,4 +26,4 @@ const bookTable = `
         </tbody>
     </table border>
 `;
-document.body.innerHTML = bookTable ;
+document.body.innerHTML += bookTable ;
