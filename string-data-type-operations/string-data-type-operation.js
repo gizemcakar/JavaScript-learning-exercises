@@ -13,3 +13,9 @@ console.log(language)                                   // replace islemi kullan
 let language1 ="Java"
 let addiction = "Script" 
 console.log(language1.concat(addiction))                 // concat ile iki stringi birlestirerek yapildi.
+
+let language2 ="Java"
+language2 += "Script" 
+console.log(language2) 
+
+document.body.innerHTML += language + " " + language2;
