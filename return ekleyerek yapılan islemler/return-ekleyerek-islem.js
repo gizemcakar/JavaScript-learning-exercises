@@ -13,3 +13,17 @@ var sonuc = alanlarCarpimi(a1,a2);
 console.log(sonuc);
 
 document.getElementById("sonuc").innerHTML = sonuc;
+
+
+
+function factorial(n){
+    let answer = n;
+        if(n==0 || n==1){
+            return answer;
+        }
+        else if(n>1){
+            answer = factorial(n-1) * answer;
+        }
+    return answer;
+}
+console.log(factorial(4));
