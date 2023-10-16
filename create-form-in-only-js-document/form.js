@@ -11,3 +11,4 @@ var inputDeger = document.getElementById("inputumuz").value  //input degerini al
 
 window.alert(inputDeger)
 
+// calisması icin html sayfasina baglanmalidir.
