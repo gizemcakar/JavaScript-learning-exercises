@@ -25,9 +25,12 @@ function addingToDo(){
     else {
         const div = document.createElement("div");
         div.classList.add("d-flex","justify-content-between","ms-2","mt-1");
+        const checkBox = document.createElement("input");
+        checkBox.setAttribute("type", "checkbox");
+        div.appendChild(checkBox);
         const liDOM = document.createElement("li");
         liDOM.innerHTML = input.value;
-        liDOM.style.listStyleType ="none"
+        liDOM.style.listStyleType ="none";
         content.classList.add("text-center","mx-auto");
         content.style.width ="30%";
         setInputBlank();
